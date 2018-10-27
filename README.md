@@ -34,30 +34,30 @@ What we are planning to build:
 		 For example, initially a user posted a fake tweet regarding a natural disaster, seeing this many users
 		 with a mindset to create awareness might re-tweet the same fake post.
 		 	
-How it works:
-	-Soon after the beginning of a disaster, people around and near by the site of disaster tweet about it.
-	-Our python application continuously analyses the streaming tweets around the world which are
-         related to natural disasters, using Twitter API and tweepy.
-	-Tweets containing keywords like "floods","earthquake","hurricane","tornadoes" etc... are our interests.
-	-The 'type of disaster' with its location can be easily obtained using 'geo-tag' of the tweets,
-         or the location of the user.
-	-Casualty count and death toll can be extracted from the tweets using natural language processing to
-         some level of reliability.
-	-This information helps in taking further recovery measures necessary.
+	How it works:
+		-Soon after the beginning of a disaster, people around and near by the site of disaster tweet about it.
+		-Our python application continuously analyses the streaming tweets around the world which are
+		 related to natural disasters, using Twitter API and tweepy.
+		-Tweets containing keywords like "floods","earthquake","hurricane","tornadoes" etc... are our interests.
+		-The 'type of disaster' with its location can be easily obtained using 'geo-tag' of the tweets,
+		 or the location of the user.
+		-Casualty count and death toll can be extracted from the tweets using natural language processing to
+		 some level of reliability.
+		-This information helps in taking further recovery measures necessary.
 
-Getting started with the project:
-	-The main application running on the server tracks frequency of tweets from a location about disasters.
-         Once the threshold is reached, it passes the message to the human moderator who resolves the credibility issues.
-	
-Datasets used:
-	-Stream of real-time tweets related to disasters.
-	
-Technologies used:
-	-Python
-	-Twitter API
-	-Natural Language Processing
+	Getting started with the project:
+		-The main application running on the server tracks frequency of tweets from a location about disasters.
+		 Once the threshold is reached, it passes the message to the human moderator who resolves the credibility issues.
 
-Feasibility:
-	-We believe our project is much feasible since there is no need of any NEW electronic device or tech.
-	-The application will simply work on devices across platforms, notify the user about any disaster happening around
-	 them in seconds.
+	Datasets used:
+		-Stream of real-time tweets related to disasters.
+
+	Technologies used:
+		-Python
+		-Twitter API
+		-Natural Language Processing
+
+	Feasibility:
+		-We believe our project is much feasible since there is no need of any NEW electronic device or tech.
+		-The application will simply work on devices across platforms, notify the user about any disaster happening around
+		 them in seconds.
